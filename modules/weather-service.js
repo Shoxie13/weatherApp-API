@@ -128,7 +128,6 @@ module.exports = class WeatherDB {
     return new Promise((resolve, reject) => {
       const db = mongoose.createConnection(this.connectionString, {
         useNewUrlParser: true,
-        useFindAndModify: false,
         useUnifiedTopology: true,
       });
 
