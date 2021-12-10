@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "bl": "^5.0.0",
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.4",
+    "mongoose": "^6.0.15",
+    "mongoose-legacy-pluralize": "^1.0.2",
+    "node-js": "^1.0.0",
+    "optional-require": "^1.1.8"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "Tareq Abdi",
+  "license": "ISC",
+  "description": ""
+}
